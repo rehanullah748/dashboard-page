@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    
+}
+
+
+.container-dashboard {
+
+    
+    height: 700px;
+    border: 1px solid silver;
+    flex-wrap: wrap;
+}
+.container-dashboard h3 {
+    color: green;
+    padding-left: 10px;
+    border-bottom: 1px solid silver;
+    align-items: center;
+    padding-bottom:5px;
+    margin-top: 20px;
+}
+.cards {
+    display: flex;
+   
+    flex-wrap: wrap;
+    
+}
+.card-new {
+    width: 290px;
+    height: 180px;
+    border: 1px solid rgb(219, 216, 216);
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+}
+.image-new-1 {
+    width: 280px;
+    height: 180px;
+    background: url(./images/7.png);
+    background-size: cover;
+    
+    
+}
+.image-new-2 {
+    width: 280px;
+    height: 180px;
+    background: url(./images/8.png);
+    background-size: cover;
+}
+.image-new-3 {
+    width: 280px;
+    height: 180px;
+    background: url(./images/9.png);
+    background-size: cover;
+}
+  .table-bottom th {
+        padding: 10px 50px;
+        
+        border-bottom: 1px solid silver;
+        
+      }
+      .table-bottom td {
+       padding: 10px 50px;
+       
+    }
+    .button-bottom button {
+        margin-top: 30px;
+        margin-left: 10px;
+        width: 1180px;
+        height: 30px;
+        flex-wrap: wrap;
+        background-color: pink;
+        border: none;
+        border-radius: 7px;
+
+    }
+    @media screen and (max-width: 850px){
+        .card-new {
+            margin-inline: auto;
+        }
+        .button-bottom button{
+            width: 630px;
+        }
+        .button-bottom {
+            margin-inline: auto;
+        }
+        .container-dashboard {
+         height: 1000px;
+        }
+        .table-bottom th {
+            padding: -6px;
+        }
+        h3 {
+            margin: 20px auto;
+            text-align: center;
+        }
+    }
+    @media screen and (max-width: 600px){
+        .card-new {
+            margin-inline: auto;
+        }
+        .button-bottom button{
+            width: 450px;
+        }
+        .button-bottom {
+            margin-inline: auto;
+        }
+        .container-dashboard {
+         height: 1000px;
+        }
+        .table-bottom th {
+            padding: -6px;
+        }
+        h3 {
+            margin: 20px auto;
+            text-align: center;
+        }
+    }
+   
+    
+        
+    
+
+    
+
